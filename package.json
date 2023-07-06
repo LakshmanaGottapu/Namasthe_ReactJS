@@ -1,0 +1,19 @@
+{
+  "name": "namasthe_react",
+  "version": "1.0.0",
+  "description": "Akshay Saini's course of reactjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LakshmanaGottapu/Namasthe_ReactJS.git"
+  },
+  "author": "Lakshman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LakshmanaGottapu/Namasthe_ReactJS/issues"
+  },
+  "homepage": "https://github.com/LakshmanaGottapu/Namasthe_ReactJS#readme"
+}
