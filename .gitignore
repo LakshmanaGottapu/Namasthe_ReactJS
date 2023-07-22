@@ -1,0 +1,10 @@
+node_modules
+dist
+.parcel-cache
+rough.cjs
+package-lock.json
+apiServer.js
+example.css
+example.html
+example.js
+foodItems.json
