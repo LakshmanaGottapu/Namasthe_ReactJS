@@ -4,7 +4,7 @@
   "description": "Akshay Saini's course of reactjs",
   "type" : "module",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel ./src/index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
