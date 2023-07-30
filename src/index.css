@@ -30,13 +30,13 @@
     margin-top: 37px;
     margin-left: 20px;
 }
-li{
+.nav-items li{
     margin-left: 20px;
     padding:10px;
     cursor: pointer;
     transition: all 0.5s;
 }
-li:hover{
+.nav-items li:hover{
     transform : translate(10%,10%);
     color: red;
 }
@@ -157,4 +157,32 @@ li:hover{
     height:150px;
     width:100%;
     border-radius:10px;
+}
+.contactus{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.about{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about h1{
+    width: 500px;
+    text-align: center;
+}
+li.item{
+    font-size: 20px;
+    margin:10px;
+    padding:5px;
+}
+
+.menu-card{
+    height:250px;
 }

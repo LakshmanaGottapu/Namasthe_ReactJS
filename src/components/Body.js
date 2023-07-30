@@ -2,16 +2,18 @@ import RestroCard from "./RestroCard.js"
 //import {debounce} from "../utils/utilities.js"
 import { useState, useEffect } from 'react';
 import Shimmer from "./Shimmer.js";
+import useOnlineStatus from "../utils/useOnlineStatus.js";
+
 const Body = ()=>{
     console.log("Body rendered");
     let [restaurantsList, setrestaurantsList] = useState([]);
     let [filteredRestaurants,setFilteredRestaurants] = useState([]);
     const [searchText,setSearchText] = useState("");
     useEffect(()=>{
-        setTimeout(fetchData,1000);
+        setTimeout(fetchData,150);
     },[])
     const fetchData = async () => {
-        const data = await fetch("http://localhost:5500/");
+        const data = await fetch("http://localhost:4500/");
         const json = await data.json();
         const restaurants = json.data?.success?.cards[4]?.gridWidget?.gridElements?.infoWithStyle?.restaurants;
         setrestaurantsList(restaurants);
@@ -21,7 +23,8 @@ const Body = ()=>{
         if(searchText)
         setFilteredRestaurants(restaurantsList.filter(restaurant=>restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())));
     }
-    return restaurantsList.length === 0?(<Shimmer/>) :
+    return useOnlineStatus()?(
+    restaurantsList.length === 0?(<Shimmer/>) :
     (<div className="body">
         <div className="filterbar" >
             <button onClick={()=>{setFilteredRestaurants(restaurantsList.filter(restaurant=>restaurant.info.avgRating>4));}}>Top Rated</button>
@@ -39,5 +42,6 @@ const Body = ()=>{
             } 
         </div>
     </div>)
+    ):(<h1>you are offline, check your network connection!!</h1>)
 }
 export default Body;

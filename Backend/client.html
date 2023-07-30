@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="getHome()">Get Home Data</button>
+    <button onclick="getRestro()">Get Restaurant Data</button>
+    <script type="text/javascript">
+        function getHome(){
+            fetch("http://localhost:4500/").then(response=>response.json()).then(data=>console.log(data));
+        }
+        function getRestro(){
+            fetch("http://localhost:4500/restaurant").then(response=>response.json()).then(data=>console.log(data.name));
+        }
+    </script>
+</body>
+</html>

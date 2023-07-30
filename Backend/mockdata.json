@@ -1,0 +1,1357 @@
+[
+    {
+        "info": {
+            "id": "434445",
+            "name": "Hotel N",
+            "cloudinaryImageId": "ktboqdrzcz9gwm1ot1y0",
+            "locality": "Theartre Road",
+            "areaName": "Powerpet",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani",
+                "Beverages"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+                "restaurantId": "434445",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "261876",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "500+",
+            "promoted": true,
+            "adTrackingId": "cid=7291638~p=2~eid=00000189-5d87-da57-1002-747200bf0234~srvts=1689491331671~45995",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 2.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21 mins",
+                "lastMileTravelString": "2.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 22:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textExtendedBadges": {},
+                    "textBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=434445",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "275394",
+            "name": "Devi Homely Kitchen",
+            "cloudinaryImageId": "l5ufrtb7ndy9r3e9yuu1",
+            "locality": "Bendeapudi Vari Street",
+            "areaName": "Powerpet",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Biryani",
+                "South Indian"
+            ],
+            "avgRating": 3.8,
+            "feeDetails": {
+                "restaurantId": "275394",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "71655",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 13,
+                "lastMileTravel": 0.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "13 mins",
+                "lastMileTravelString": "0.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 15:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=275394",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "240532",
+            "name": "Madina Biryani Point",
+            "cloudinaryImageId": "hruiiqprwtgba95au89z",
+            "locality": "RR Pet",
+            "areaName": "Powerpet",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Biryani"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+                "restaurantId": "240532",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "128733",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 12,
+                "lastMileTravel": 0.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "12 mins",
+                "lastMileTravelString": "0.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 16:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=240532",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "142062",
+            "name": " Hai Food Park",
+            "cloudinaryImageId": "btmywa5djyo1pyxo3p2r",
+            "locality": "NR Pet",
+            "areaName": "Powerpet",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Biryani"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+                "restaurantId": "142062",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "92608",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 13,
+                "lastMileTravel": 0.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "13 mins",
+                "lastMileTravelString": "0.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textExtendedBadges": {},
+                    "textBased": {},
+                    "imageBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=142062",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "597606",
+            "name": "Grameen Kulfi",
+            "cloudinaryImageId": "qytlkel854lako2ybb1c",
+            "locality": "Mothe Vari Satram Street",
+            "areaName": "Powerpet",
+            "costForTwo": "₹120 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts"
+            ],
+            "avgRating": 4.5,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "597606",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "12175",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "100+",
+            "promoted": true,
+            "adTrackingId": "cid=7486657~p=4~eid=00000189-5d87-da57-1002-747400bf0443~srvts=1689491331671~45995",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "18 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "EVERY ITEM",
+                "subHeader": "@ ₹99"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=597606",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "578982",
+            "name": "Anish Elite Exotic Restaurant",
+            "cloudinaryImageId": "gjymefv4i1lhxq4ahfrk",
+            "locality": "Narasimha Rao Pet",
+            "areaName": "West Godavari",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Chinese",
+                "North Indian",
+                "Snacks",
+                "Biryani",
+                "South Indian"
+            ],
+            "avgRating": 3.7,
+            "feeDetails": {
+                "restaurantId": "578982",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "346711",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 24,
+                "lastMileTravel": 0.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "24 mins",
+                "lastMileTravelString": "0.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 23:18:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textExtendedBadges": {},
+                    "textBased": {},
+                    "imageBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=578982",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "143461",
+            "name": "Navayuga Family Restaurant",
+            "cloudinaryImageId": "r1n1tkxa8vxosljqdvla",
+            "locality": "N R Pet",
+            "areaName": "Powerpet",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani",
+                "South Indian"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+                "restaurantId": "143461",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "144777",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 12,
+                "lastMileTravel": 0.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "12 mins",
+                "lastMileTravelString": "0.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 15:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "UPTO ₹40"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=143461",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "143411",
+            "name": "Gummadi Grand",
+            "cloudinaryImageId": "vakzgsmduphfeqjqbd2l",
+            "locality": "Fire Station Center",
+            "areaName": "Powerpet",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani"
+            ],
+            "avgRating": 3.7,
+            "feeDetails": {
+                "restaurantId": "143411",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "91504",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 0.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "0.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 22:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=143411",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "431776",
+            "name": "Smoothie Splash",
+            "cloudinaryImageId": "xquvzh6fbk1mk0yueiuy",
+            "locality": "Rr Pet Road",
+            "areaName": "Powerpet",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Biryani",
+                "Chinese",
+                "Pizzas"
+            ],
+            "avgRating": 2.9,
+            "feeDetails": {
+                "restaurantId": "431776",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "260378",
+            "avgRatingString": "2.9",
+            "totalRatingsString": "500+",
+            "promoted": true,
+            "adTrackingId": "cid=7292616~p=5~eid=00000189-5d87-da57-1002-747500bf054a~srvts=1689491331671~45995",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "1.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textExtendedBadges": {},
+                    "textBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=431776",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "365765",
+            "name": "Raza Star Biryani",
+            "cloudinaryImageId": "mmv6boh3r1mixnymuawh",
+            "locality": "Cmr Shopping Mall",
+            "areaName": "Powerpet",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Biryani",
+                "South Indian",
+                "North Indian"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+                "restaurantId": "365765",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "167901",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 12,
+                "lastMileTravel": 0.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "12 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 16:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textExtendedBadges": {},
+                    "textBased": {},
+                    "imageBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=365765",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "262493",
+            "name": "Ambica Flavours",
+            "cloudinaryImageId": "plysbhlc2qsmhizmfxno",
+            "locality": "NR Pet",
+            "areaName": "Powerpet",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Biryani"
+            ],
+            "avgRating": 3.4,
+            "feeDetails": {
+                "restaurantId": "262493",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "31254",
+            "avgRatingString": "3.4",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21 mins",
+                "lastMileTravelString": "2.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 15:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=262493",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "635359",
+            "name": "Madina Alfa Dum Biryani House",
+            "cloudinaryImageId": "yxr14kdyhjagazqss1tg",
+            "locality": "Santhi Nagar",
+            "areaName": "Powerpet",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Biryani",
+                "Snacks"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+                "restaurantId": "635359",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "383730",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 14,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "14 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 22:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textExtendedBadges": {},
+                    "textBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=635359",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "715967",
+            "name": "Hotel N Square",
+            "cloudinaryImageId": "7bb0e701185c86fdc9005fe798bd4bac",
+            "locality": "Papasaheb Road",
+            "areaName": "Powerpet",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Chinese",
+                "North Indian",
+                "South Indian",
+                "Tandoor",
+                "Indian",
+                "Beverages"
+            ],
+            "avgRating": 4.2,
+            "feeDetails": {
+                "restaurantId": "715967",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "423452",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "20+",
+            "promoted": true,
+            "adTrackingId": "cid=7292629~p=7~eid=00000189-5d87-da57-1002-747700bf0762~srvts=1689491331671~45995",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 0.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "0.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 15:20:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textExtendedBadges": {},
+                    "textBased": {},
+                    "imageBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=715967",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "678883",
+            "name": "Sweet Magic  Main Bazar",
+            "cloudinaryImageId": "b81641ecaab325c16807bc8ba0413766",
+            "locality": "Main Bazar",
+            "areaName": "Powerpet",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Desserts",
+                "Sweets",
+                "Bakery",
+                "Beverages"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+                "restaurantId": "678883",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "405738",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 16,
+                "lastMileTravel": 2.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "16 mins",
+                "lastMileTravelString": "2.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textExtendedBadges": {},
+                    "textBased": {},
+                    "imageBased": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=678883",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "142028",
+            "name": "Sweet Magic (Satrampadu)",
+            "cloudinaryImageId": "anbe7xce2ik5mskxo62g",
+            "locality": "Satrampadu",
+            "areaName": "Powerpet",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Desserts"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+                "restaurantId": "142028",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "199306",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 21:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=142028",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "365770",
+            "name": "Barkaas Arabic Restaurant",
+            "cloudinaryImageId": "f1krngkdgohci8k1ovza",
+            "locality": "Srinivasa Theatre Road",
+            "areaName": "Powerpet",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Indian"
+            ],
+            "avgRating": 3.6,
+            "feeDetails": {
+                "restaurantId": "365770",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 1900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 1900
+            },
+            "parentId": "12564",
+            "avgRatingString": "3.6",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 0.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "0.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-16 16:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹75 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "swiggy://menu?restaurant_id=365770",
+            "text": "RESTAURANT_MENU",
+            "type": "DEEPLINK"
+        }
+    }
+]

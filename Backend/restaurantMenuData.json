@@ -1,0 +1,387 @@
+[  
+    {
+        "id": "434445",
+        "name": "Hotel N",
+        "cloudinaryImageId": "ktboqdrzcz9gwm1ot1y0",
+        "locality": "Theartre Road",
+        "areaName": "Powerpet",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+            "North Indian",
+            "Biryani",
+            "Beverages"
+        ],
+        "avgRating": 4,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "275394",
+        "name": "Devi Homely Kitchen",
+        "cloudinaryImageId": "l5ufrtb7ndy9r3e9yuu1",
+        "locality": "Bendeapudi Vari Street",
+        "areaName": "Powerpet",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+            "Biryani",
+            "South Indian"
+        ],
+        "avgRating": 3.8,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "240532",
+        "name": "Madina Biryani Point",
+        "cloudinaryImageId": "hruiiqprwtgba95au89z",
+        "locality": "RR Pet",
+        "areaName": "Powerpet",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+            "Biryani"
+        ],
+        "avgRating": 4.1,
+    "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+
+    {
+        "id": "142062",
+            "name": " Hai Food Park",
+            "cloudinaryImageId": "btmywa5djyo1pyxo3p2r",
+            "locality": "NR Pet",
+            "areaName": "Powerpet",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Biryani"
+            ],
+            "avgRating": 4,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "597606",
+        "name": "Grameen Kulfi",
+        "cloudinaryImageId": "qytlkel854lako2ybb1c",
+        "locality": "Mothe Vari Satram Street",
+        "areaName": "Powerpet",
+        "costForTwo": "₹120 for two",
+        "cuisines": [
+            "Ice Cream",
+            "Desserts"
+        ],
+        "avgRating": 4.5,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "578982",
+            "name": "Anish Elite Exotic Restaurant",
+            "cloudinaryImageId": "gjymefv4i1lhxq4ahfrk",
+            "locality": "Narasimha Rao Pet",
+            "areaName": "West Godavari",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Chinese",
+                "North Indian",
+                "Snacks",
+                "Biryani",
+                "South Indian"
+            ],
+            "avgRating": 3.7,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "143461",
+            "name": "Navayuga Family Restaurant",
+            "cloudinaryImageId": "r1n1tkxa8vxosljqdvla",
+            "locality": "N R Pet",
+            "areaName": "Powerpet",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani",
+                "South Indian"
+            ],
+            "avgRating": 4,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "143411",
+        "name": "Gummadi Grand",
+        "cloudinaryImageId": "vakzgsmduphfeqjqbd2l",
+        "locality": "Fire Station Center",
+        "areaName": "Powerpet",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+            "North Indian",
+            "Biryani"
+        ],
+        "avgRating": 3.7,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "431776",
+            "name": "Smoothie Splash",
+            "cloudinaryImageId": "xquvzh6fbk1mk0yueiuy",
+            "locality": "Rr Pet Road",
+            "areaName": "Powerpet",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Biryani",
+                "Chinese",
+                "Pizzas"
+            ],
+            "avgRating": 2.9,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "365765",
+            "name": "Raza Star Biryani",
+            "cloudinaryImageId": "mmv6boh3r1mixnymuawh",
+            "locality": "Cmr Shopping Mall",
+            "areaName": "Powerpet",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Biryani",
+                "South Indian",
+                "North Indian"
+            ],
+            "avgRating": 4,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "262493",
+            "name": "Ambica Flavours",
+            "cloudinaryImageId": "plysbhlc2qsmhizmfxno",
+            "locality": "NR Pet",
+            "areaName": "Powerpet",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Biryani"
+            ],
+            "avgRating": 3.4,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "635359",
+            "name": "Madina Alfa Dum Biryani House",
+            "cloudinaryImageId": "yxr14kdyhjagazqss1tg",
+            "locality": "Santhi Nagar",
+            "areaName": "Powerpet",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Biryani",
+                "Snacks"
+            ],
+            "avgRating": 4,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "12",
+        "name": "Devi Homely Kitchen",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+            "Biryani",
+            "South Indian"
+        ],
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "715967",
+            "name": "Hotel N Square",
+            "cloudinaryImageId": "7bb0e701185c86fdc9005fe798bd4bac",
+            "locality": "Papasaheb Road",
+            "areaName": "Powerpet",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Chinese",
+                "North Indian",
+                "South Indian",
+                "Tandoor",
+                "Indian",
+                "Beverages"
+            ],
+            "avgRating": 4.2,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    
+    {
+        "id": "678883",
+            "name": "Sweet Magic  Main Bazar",
+            "cloudinaryImageId": "b81641ecaab325c16807bc8ba0413766",
+            "locality": "Main Bazar",
+            "areaName": "Powerpet",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Desserts",
+                "Sweets",
+                "Bakery",
+                "Beverages"
+            ],
+            "avgRating": 4.1,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+
+    {
+        "id": "142028",
+        "name": "Sweet Magic (Satrampadu)",
+        "cloudinaryImageId": "anbe7xce2ik5mskxo62g",
+        "locality": "Satrampadu",
+        "areaName": "Powerpet",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+            "Desserts"
+        ],
+        "avgRating": 4.1,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+
+    {
+        "id": "365770",
+            "name": "Barkaas Arabic Restaurant",
+            "cloudinaryImageId": "f1krngkdgohci8k1ovza",
+            "locality": "Srinivasa Theatre Road",
+            "areaName": "Powerpet",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Indian"
+            ],
+            "avgRating": 3.6,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "359229",
+        "name": "The Shawarma Company",
+        "cloudinaryImageId": "n1z1qc1eaqoea2p7csqq",
+        "locality": "RR Pet",
+        "areaName": "Powerpet",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+            "Arabian"
+        ],
+        "avgRating": 3.4,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "727245",
+        "name": "Red Bucket Biryani",
+        "cloudinaryImageId": "375f8d233613b205ab37f42d110edc88",
+        "locality": "Main Road",
+        "areaName": "Powerpet",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+            "Biryani"
+        ],
+        "avgRating": 3.8,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "612561",
+        "name": "7th Heaven",
+        "cloudinaryImageId": "km5c1ovbthqueiajfpdy",
+        "locality": "RR Pet Main Road",
+        "areaName": "Powerpet",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+            "Bakery",
+            "Burgers",
+            "Pizzas"
+        ],
+        "avgRating": 4.2,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "142070",
+        "name": "DFC",
+        "cloudinaryImageId": "en4iky0edbsdjmz0qxlf",
+        "locality": "RR Pet",
+        "areaName": "Powerpet",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+            "American"
+        ],
+        "avgRating": 4.1,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "410733",
+        "name": "Madina Alfa Biryani",
+        "cloudinaryImageId": "ify3bkzd0logqjgxoy8i",
+        "locality": "New Bus Stand",
+        "areaName": "Powerpet",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+            "Biryani"
+        ],
+        "avgRating": 3.9,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "230378",
+        "name": "Little Chef",
+        "cloudinaryImageId": "lbbcktjs65enll1sqxs3",
+        "locality": "Santhi Nagar",
+        "areaName": "Powerpet",
+        "costForTwo": "₹150 for two",
+        "cuisines": [
+            "North Indian",
+            "Biryani",
+            "Chinese"
+        ],
+        "avgRating": 3.9,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "550796",
+        "name": "Durbar Multi Cuisine Restaurant",
+        "cloudinaryImageId": "dcxgboyqovzfhexdqjo9",
+        "locality": "Satrampadu",
+        "areaName": "Powerpet",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+            "Biryani",
+            "Fast Food"
+        ],
+        "avgRating": 3.3,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "699502",
+        "name": "Dumont Creamery",
+        "cloudinaryImageId": "6ed28b16206f0ff39dcb72e7dfaf20a1",
+        "locality": "Narasimharao Peta",
+        "areaName": "Powerpet",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+            "Ice Cream",
+            "Desserts",
+            "Bakery",
+            "Beverages"
+        ],
+        "avgRating": 4.5,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    },
+    {
+        "id": "436553",
+        "name": "Hush Coffee",
+        "cloudinaryImageId": "awbvpn8dbbh5lttnfmbu",
+        "locality": "Rr Pet Road",
+        "areaName": "Powerpet",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+            "Chinese",
+            "Fast Food",
+            "Salads",
+            "Desserts",
+            "Beverages"
+        ],
+        "avgRating": 3.8,
+        "itemCards":["Thanduri","chicken tikka","Gongura Mutton", "naatu kodi", "prawn curry", "vulava charu"]
+    }
+]
