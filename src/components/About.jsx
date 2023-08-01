@@ -24,16 +24,16 @@ class About extends Component{
             name: json.login,
             avatar: json.avatar_url
         })
-        this.timer = setInterval(()=>{
-            console.log("HI");
-        },1000)
+        // this.timer = setInterval(()=>{
+        //     console.log("HI");
+        // },1000)
     }
     render(){
         console.log("Parent components rendered");
         const {moto} = this.props;
         const {name,avatar} = this.state;
         return (
-            <div className="about">
+            <div className="flex flex-col h-screen items-center justify-evenly p-4">
                 <h1>Name: {name}</h1>
                 <img src={avatar} style={{height:"240px"}}></img>
                 <h2>Our Moto: {moto}</h2>

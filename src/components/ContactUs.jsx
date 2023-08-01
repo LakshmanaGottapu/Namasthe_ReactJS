@@ -18,7 +18,7 @@ const ContactUs = ()=>{
         }
     },[]);
     return(
-        <div className="contactus">
+        <div className="flex flex-col h-screen items-center justify-evenly p-4">
            <img src={image} style={{height:"400px"}}></img>  
             <h2>mail: {mail}</h2>
             <h2>contactno: {contactno}</h2>

@@ -26,18 +26,17 @@ const Body = ()=>{
     return useOnlineStatus()?(
     restaurantsList.length === 0?(<Shimmer/>) :
     (<div className="body">
-        <div className="filterbar" >
-            <button onClick={()=>{setFilteredRestaurants(restaurantsList.filter(restaurant=>restaurant.info.avgRating>4));}}>Top Rated</button>
-            <div className="searchbar" >
-                <input type="text" value={searchText} onChange={(e)=>{
+        <div className="filterbar flex bg-slate-100 my-8 h-16" >
+            <button className=" px-2 ml-24 border h-8 mt-4 border-black shadow-md bg-gray-300 rounded-lg" onClick={()=>{setFilteredRestaurants(restaurantsList.filter(restaurant=>restaurant.info.avgRating>4));}}>Top Rated</button>
+            <div className="searchbar ml-96 p-4" >
+                <input className="border border-black rounded-lg" type="text" value={searchText} onChange={(e)=>{
                     setSearchText(e.target.value);
                 }}></input>
-                <button onClick={search}>search</button>
+                <button className="border border-black ml-1 shadow-md rounded-lg bg-gray-400  px-1" onClick={search}>search</button>
             </div>
-            <div style={{width:"250px"}}></div>
         </div>
         
-        <div className="cards grid">
+        <div className="grid grid-cols-4 gap-y-12 p-4 pl-16">
             {filteredRestaurants.map(restaurant=> <RestroCard key={restaurant.info.id} restaurant={restaurant.info}></RestroCard>)
             } 
         </div>

@@ -11,10 +11,10 @@ const Restaurant = ()=>{
         console.log("got resInfo from api call");
         const {name,cuisines,cloudinaryImageId,itemCards,id} = resInfo[0];
         return (
-            <div>
+            <div className="p-2 text-xl">
                 <h1>{name}</h1>
                 <h2>Menu</h2>
-                <img src={CDN_URL+cloudinaryImageId} className="menu-card"></img>
+                <img src={CDN_URL+cloudinaryImageId} className="h-72"></img>
                 <h3>{cuisines.join(",")}</h3>
                 <ul>
                     {itemCards.map(cardName=>(<li className="item">{cardName}</li>))}

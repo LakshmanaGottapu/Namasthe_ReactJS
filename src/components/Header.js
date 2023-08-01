@@ -10,22 +10,21 @@ export const Header = () => {
             sessionState==="Login"?setSessionState("Logout"):setSessionState("Login");
         },100);
     }
-
     return (
-        <div className="header">
+        <div className="flex justify-between shadow-sm bg-slate-200" >
             <div className="logo-container">
-                <img className="logo" src={LOGO_URL}></img>
+                <img className="w-24" src={LOGO_URL}></img>
             </div>
-            <div className="nav-items">
-                <ul>
-                    <li>{useOnlineStatus()?"🟢":"🔴"}</li>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/contact'>ContactUs</Link></li>
-                    <li>Cart</li>
-                    <li></li>
+            <div className = "border-slate-500">
+                <ul className="flex p-4 m-4 border-slate-500">
+                    <li className="mx-4"><Link to='/grocery'>Grocery</Link></li>
+                    <li className="mx-4">Online Status: {useOnlineStatus()?"🟢":"🔴"}</li>
+                    <li className="mx-4"><Link to='/'>Home</Link></li>
+                    <li className="mx-4"><Link to='/about'>About</Link></li>
+                    <li className="mx-4"><Link to='/contact'>ContactUs</Link></li>
+                    <li className="mx-4">Cart</li>
+                    <button className="mx-4" onClick={changeState}>{sessionState}</button>
                 </ul>
-                <button onClick={changeState}>{sessionState}</button>
             </div>
         </div>
     );
