@@ -1,5 +1,5 @@
 import RestroCard from "./RestroCard.js"
-//import {debounce} from "../utils/utilities.js"
+import {debounceFunction} from "../utils/utilities.js"
 import { useState, useEffect } from 'react';
 import Shimmer from "./Shimmer.js";
 import useOnlineStatus from "../utils/useOnlineStatus.js";
@@ -10,9 +10,12 @@ const Body = ()=>{
     let [filteredRestaurants,setFilteredRestaurants] = useState([]);
     const [searchText,setSearchText] = useState("");
     const [filterFlag, setFilterFlag] = useState(false);
+    const debouncedSearch = debounceFunction(search,200);
+    console.log("from main ",searchText);
     useEffect(()=>{
         setTimeout(fetchData,150);
     },[])
+    useEffect(debouncedSearch,[searchText]);
     const fetchData = async () => {
         const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=16.7280962&lng=81.0780596&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
         const json = await data.json();
@@ -24,11 +27,16 @@ const Body = ()=>{
     };
     function search(){
         if(searchText){
+            console.log("with some search value ",searchText);
             if(filterFlag)
             setFilteredRestaurants(filteredRestaurants.filter(restaurant=>restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())));
             else {
                 setFilteredRestaurants(restaurantsList.filter(restaurant=>restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())));
             }
+        }
+        else{
+            console.log("with some search value cleared",searchText);
+            setFilteredRestaurants(restaurantsList);
         }
     }
     const RestroCardPromoted = withLabelPromoted();
@@ -49,6 +57,7 @@ const Body = ()=>{
             <div className="searchbar ml-96 p-4" >
                 <input className="border border-black rounded-lg" type="text" value={searchText} onChange={(e)=>{
                     setSearchText(e.target.value);
+                    //debouncedSearch();
                 }}></input>
                 <button className="border border-black ml-1 shadow-md rounded-lg bg-gray-400  px-1" onClick={search}>search</button>
             </div>
@@ -56,11 +65,9 @@ const Body = ()=>{
         <div className="p-4 pl-16 flex flex-wrap">
             {filteredRestaurants.map(restaurant=> {
                 if(restaurant.info.promoted===true){
-                    console.log(restaurant.info.name);
                     return (<RestroCardPromoted key={restaurant.info.id} props={restaurant}></RestroCardPromoted>);
                 }
                 else {
-                    console.log(restaurant.info.id);
                     return (<RestroCard key={restaurant.info.id} restaurant={restaurant.info}></RestroCard>);
                 }
                     

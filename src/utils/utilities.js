@@ -4,15 +4,12 @@ export function getComponent(comp,dataObject){
 }
 export const fetchStaticData =  JSON.parse(fs.readFileSync("./src/utils/swiggycards.json","utf-8"));
 
-export function debounce(func, delay) {
-    let timeoutId;
-  
-    return function(...args) {
-      const context = this;
-  
-      clearTimeout(timeoutId);
-      timeoutId = setTimeout(() => {
-        func.apply(context, args);
-      }, delay);
-    };
+export function debounceFunction(fn,delay){
+  let timer;
+  let count=0;
+  const context = this;
+  return function(...args){
+      clearTimeout(timer);
+      timer = setTimeout(fn.bind(context,...args),delay);
+  }
 }
