@@ -3,7 +3,7 @@ import RestroCard from "./RestroCard.js"
 import { useState, useEffect } from 'react';
 import Shimmer from "./Shimmer.js";
 import useOnlineStatus from "../utils/useOnlineStatus.js";
-
+import {withLabelPromoted} from "./RestroCard";
 const Body = ()=>{
     console.log("Body rendered");
     let [restaurantsList, setrestaurantsList] = useState([]);
@@ -13,9 +13,13 @@ const Body = ()=>{
         setTimeout(fetchData,150);
     },[])
     const fetchData = async () => {
-        const data = await fetch("http://localhost:4500/");
+        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=16.7280962&lng=81.0780596&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
         const json = await data.json();
-        const restaurants = json.data?.success?.cards[4]?.gridWidget?.gridElements?.infoWithStyle?.restaurants;
+        console.log(json);
+        const restaurants = json.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+        const moreRestaurants = json.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+        restaurants.push(...moreRestaurants);
+        console.log(restaurants);
         setrestaurantsList(restaurants);
         setFilteredRestaurants(restaurants);
     };
@@ -23,6 +27,7 @@ const Body = ()=>{
         if(searchText)
         setFilteredRestaurants(restaurantsList.filter(restaurant=>restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())));
     }
+    const RestroCardPromoted = withLabelPromoted();
     return useOnlineStatus()?(
     restaurantsList.length === 0?(<Shimmer/>) :
     (<div className="body">
@@ -35,9 +40,15 @@ const Body = ()=>{
                 <button className="border border-black ml-1 shadow-md rounded-lg bg-gray-400  px-1" onClick={search}>search</button>
             </div>
         </div>
-        
-        <div className="grid grid-cols-4 gap-y-12 p-4 pl-16">
-            {filteredRestaurants.map(restaurant=> <RestroCard key={restaurant.info.id} restaurant={restaurant.info}></RestroCard>)
+        <div className="p-4 pl-16 flex flex-wrap">
+            {filteredRestaurants.map(restaurant=> {
+                if(restaurant.info.promoted===true){
+                    console.log(restaurant.info.name);
+                    return (<RestroCardPromoted key={restaurant.info.id} props={restaurant}></RestroCardPromoted>);
+                }
+                else 
+                    return (<RestroCard key={restaurant.info.id} restaurant={restaurant.info}></RestroCard>);
+            })
             } 
         </div>
     </div>)
