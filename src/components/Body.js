@@ -20,7 +20,7 @@ const Body = ()=>{
     const fetchData = async () => {
         const data = await fetch(CARDS_API);
         const json = await data.json();
-        const restaurants = json.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+        const restaurants = json.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
         const moreRestaurants = json.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
         //restaurants.push(...moreRestaurants);
         setrestaurantsList(restaurants);
