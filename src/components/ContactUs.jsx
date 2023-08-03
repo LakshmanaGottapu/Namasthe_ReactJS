@@ -1,12 +1,12 @@
 import { useState,useEffect } from "react";
-
+import {CONTACT_IMAGE} from "../utils/constants";
 const ContactUs = ()=>{
     const [image,setImage] = useState("");
     const mail = "sailakshman@gmail.com";
     const contactno = 8374442584;
     useEffect(()=>{
         async function fetchData(){
-            const imageData = await fetch("http://localhost:4500/image");
+            const imageData = await fetch(CONTACT_IMAGE);
             const imageBlob = await imageData.blob();
             const imgUrl = URL.createObjectURL(imageBlob);
             setImage(imgUrl);

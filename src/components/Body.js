@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Shimmer from "./Shimmer.js";
 import useOnlineStatus from "../utils/useOnlineStatus.js";
 import {withLabelPromoted} from "./RestroCard";
+import {CARDS_API} from '../utils/constants';
 const Body = ()=>{
     console.log("Body rendered");
     let [restaurantsList, setrestaurantsList] = useState([]);
@@ -17,7 +18,7 @@ const Body = ()=>{
     },[])
     useEffect(debouncedSearch,[searchText]);
     const fetchData = async () => {
-        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=16.7280962&lng=81.0780596&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+        const data = await fetch(CARDS_API);
         const json = await data.json();
         const restaurants = json.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
         const moreRestaurants = json.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;

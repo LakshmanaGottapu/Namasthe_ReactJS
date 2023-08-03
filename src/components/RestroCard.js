@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import {CDN_URL} from '../utils/constants';    
+import {CDN_URL} from '../utils/constants';  
+  
 const Card = ({restaurant}) =>  {
     return  <div className="m-4 rounded-2xl p-4 pl-8 w-96 bg-[#f0f0f0] hover:bg-gray-300  transition-colors duration-300">
                 <Link to={`/restaurant/${restaurant.id}`} key={restaurant.id}>

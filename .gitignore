@@ -1,12 +1,6 @@
 .parcel-cache
 dist
-examples
 node_modules
 Notes
 package-lock.json
-Backend/example.html
-Backend/example.js
-Backend/example.css
-Backend/fooditems.json
-Backend/rough.cjs
-Backend/dataFetch.js
+Backend
