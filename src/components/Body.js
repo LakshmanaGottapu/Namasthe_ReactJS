@@ -5,14 +5,13 @@ import Shimmer from "./Shimmer.js";
 import useOnlineStatus from "../utils/useOnlineStatus.js";
 import {withLabelPromoted} from "./RestroCard";
 import {CARDS_API} from '../utils/constants';
+import flat from '../utils/flat';
 const Body = ()=>{
-    console.log("Body rendered");
     let [restaurantsList, setrestaurantsList] = useState([]);
     let [filteredRestaurants,setFilteredRestaurants] = useState([]);
     const [searchText,setSearchText] = useState("");
     const [filterFlag, setFilterFlag] = useState(false);
     const debouncedSearch = debounceFunction(search,200);
-    console.log("from main ",searchText);
     useEffect(()=>{
         setTimeout(fetchData,150);
     },[])
@@ -20,23 +19,25 @@ const Body = ()=>{
     const fetchData = async () => {
         const data = await fetch(CARDS_API);
         const json = await data.json();
-        const restaurants = json.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
-        const moreRestaurants = json.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
-        //restaurants.push(...moreRestaurants);
-        setrestaurantsList(restaurants);
-        setFilteredRestaurants(restaurants);
+        const categories = json.data.cards;
+        const restaurantCategories = categories.filter(category=>category?.card?.card?.id==="restaurant_grid_listing");
+        let restaurants=[];
+        restaurantCategories.forEach(category=>restaurants.push(category.card.card.gridElements.infoWithStyle.restaurants));
+        console.log(restaurants);
+        console.log(flat(restaurants));
+        setrestaurantsList(flat(restaurants));
+        setFilteredRestaurants(flat(restaurants));
     };
     function search(){
         if(searchText){
-            console.log("with some search value ",searchText);
             if(filterFlag)
             setFilteredRestaurants(filteredRestaurants.filter(restaurant=>restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())));
             else {
+                console.log("Hi");
                 setFilteredRestaurants(restaurantsList.filter(restaurant=>restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())));
             }
         }
         else{
-            console.log("with some search value cleared",searchText);
             setFilteredRestaurants(restaurantsList);
         }
     }
