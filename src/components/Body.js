@@ -1,16 +1,18 @@
 import RestroCard from "./RestroCard.js"
 import {debounceFunction} from "../utils/utilities.js"
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import Shimmer from "./Shimmer.js";
 import useOnlineStatus from "../utils/useOnlineStatus.js";
 import {withLabelPromoted} from "./RestroCard";
 import {CARDS_API} from '../utils/constants';
 import flat from '../utils/flat';
+import UserContext from "./UserContext";
 const Body = ()=>{
     let [restaurantsList, setrestaurantsList] = useState([]);
     let [filteredRestaurants,setFilteredRestaurants] = useState([]);
     const [searchText,setSearchText] = useState("");
     const [filterFlag, setFilterFlag] = useState(false);
+    const {loggedInUser,setUserName} = useContext(UserContext);
     const debouncedSearch = debounceFunction(search,200);
     useEffect(()=>{
         setTimeout(fetchData,150);
@@ -26,8 +28,6 @@ const Body = ()=>{
         const restaurantCategories = categories.filter(category=>category?.card?.card?.id==="restaurant_grid_listing");
         let restaurants=[];
         restaurantCategories.forEach(category=>restaurants.push(category.card.card.gridElements.infoWithStyle.restaurants));
-        console.log(restaurants);
-        console.log(flat(restaurants));
         setrestaurantsList(flat(restaurants));
         setFilteredRestaurants(flat(restaurants));
     };
@@ -45,6 +45,7 @@ const Body = ()=>{
         }
     }
     const RestroCardPromoted = withLabelPromoted();
+
     return useOnlineStatus()?(
     restaurantsList.length === 0?(<Shimmer/>) :
     (<div className="body">
@@ -65,6 +66,9 @@ const Body = ()=>{
                     //debouncedSearch();
                 }}></input>
                 <button className="border border-black ml-1 shadow-md rounded-lg bg-gray-400  px-1" onClick={search}>search</button>
+            </div>
+            <div className="user-name m-auto"><span className="font-bold text-xl">UserName:</span>
+                <input type="text" className="ml-2 border rounded-sm text-lg pl-1 border-black" onChange={(e)=>setUserName(e.target.value)}></input>
             </div>
         </div>
         <div className="p-4 pl-16 flex flex-wrap">

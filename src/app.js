@@ -6,15 +6,31 @@ import About from "./components/About.jsx";
 import ContactUs from "./components/ContactUs.jsx";
 import Error from "./components/Error.jsx";
 import Restaurant from "./components/Restaurant.js";
+import {useState, useEffect} from "react";
 //import Grocery from "./components/Grocery.js";
 import {createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
 import { lazy, Suspense } from "react";
+import UserContext from "./components/UserContext.js";
 const Grocery = lazy(()=>import("./components/Grocery.js"));
-const AppLayoutComp = () =>
-        <div className="app">
-            <Header></Header>
-            <Outlet></Outlet>
-        </div>;
+const AppLayoutComp = () =>{
+    const [userName,setUserName] = useState();
+    useEffect(()=>{
+        setTimeout(()=>{
+            const data = {
+                userName : "Lakshmana Gottapu"
+            } 
+            setUserName(data.userName);
+        },2000);
+    },[]);
+    return(<div className="app">
+                <UserContext.Provider value={{loggedInUser:userName, setUserName:setUserName}}>
+                    <Header></Header>
+                    <Outlet></Outlet>
+                </UserContext.Provider>
+            </div>
+       );
+};
+        
 const appRouter =   createBrowserRouter(
                         [
                             {
@@ -23,7 +39,7 @@ const appRouter =   createBrowserRouter(
                                 children:[
                                     {
                                         path: "/",
-                                        element: <Body/>,
+                                        element: <Body></Body>,
                                     },
                                     {
                                         path: "/about",

@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { ABOUT_USER } from "../utils/constants";
 import User from "./User";
+import UserContext from "./UserContext.js";
 class About extends Component{
     constructor(props){
         super(props);
@@ -35,6 +36,11 @@ class About extends Component{
         return (
             <div className="flex flex-col h-screen items-center justify-evenly p-4">
                 <h1>Name: {name}</h1>
+                <div>Logged In User: <UserContext.Consumer>
+                        {({loggedInUser})=><span>{loggedInUser}</span>}
+                    </UserContext.Consumer>
+                    
+                </div>
                 <img src={avatar} style={{height:"240px"}}></img>
                 <h2>Our Moto: {moto}</h2>
                 <User name="Lakshman" phno={8374842584} mail="sailakshman@gmail.com"></User>

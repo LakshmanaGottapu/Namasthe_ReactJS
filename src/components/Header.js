@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import {LOGO_URL} from '../utils/constants';  
 import ShimmerHeader from './ShimmerHeader.js';
-import { useState,useEffect } from 'react';
+import { useState,useContext } from 'react';
+import UserContext from "./UserContext.js";
 import useOnlineStatus from '../utils/useOnlineStatus';
 export const Header = () => {
     let [sessionState,setSessionState] = useState("Login");
+    const {loggedInUser,setUserName} = useContext(UserContext);
     function changeState(){
         setTimeout(()=>{
             sessionState==="Login"?setSessionState("Logout"):setSessionState("Login");
@@ -24,6 +26,7 @@ export const Header = () => {
                     <li className="mx-4"><Link to='/contact'>ContactUs</Link></li>
                     <li className="mx-4">Cart</li>
                     <button className="mx-4" onClick={changeState}>{sessionState}</button>
+                    <li className="mx-4 font-bold">{loggedInUser}</li>
                 </ul>
             </div>
         </div>

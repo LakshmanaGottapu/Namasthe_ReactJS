@@ -5,7 +5,7 @@ const ItemCard = function({category,showIndex,setIndex}){
     let itemCards;
     if(category["@type"].endsWith("NestedItemCategory")){
         itemCards = category.categories.itemCards;
-    }
+    }                                                    
     else{
         itemCards = category.itemCards;
     }

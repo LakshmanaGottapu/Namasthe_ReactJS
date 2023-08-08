@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import {CDN_URL} from '../utils/constants';  
-  
+import { useContext } from 'react';
+import UserContext from "./UserContext.js";
 const Card = ({restaurant}) =>  {
+    const {loggedInUser,setUserName} = useContext(UserContext);
     return  <div className="m-4 rounded-2xl p-4 pl-8 w-96 bg-[#f0f0f0] hover:bg-gray-300  transition-colors duration-300">
                 <Link to={`/restaurant/${restaurant.id}`} key={restaurant.id}>
                     <img className="h-48 w-80 rounded-2xl"src={CDN_URL+restaurant.cloudinaryImageId}></img>
@@ -9,6 +11,7 @@ const Card = ({restaurant}) =>  {
                     <div className="font-semibold">{restaurant.cuisines.join(", ")}</div>
                     <div>Rating: {restaurant.avgRating}<span>&#9733;</span></div>
                     <div>Cost: {restaurant.costForTwo}</div>
+                    <div>{loggedInUser}</div>
                 </Link>
             </div>;
 }
