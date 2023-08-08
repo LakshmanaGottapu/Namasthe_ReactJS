@@ -20,6 +20,9 @@ const Body = ()=>{
         const data = await fetch(CARDS_API);
         const json = await data.json();
         const categories = json.data.cards;
+        if(categories[0].card.card?.id==="swiggy_not_present"){
+            return;
+        }
         const restaurantCategories = categories.filter(category=>category?.card?.card?.id==="restaurant_grid_listing");
         let restaurants=[];
         restaurantCategories.forEach(category=>restaurants.push(category.card.card.gridElements.infoWithStyle.restaurants));
@@ -65,15 +68,15 @@ const Body = ()=>{
             </div>
         </div>
         <div className="p-4 pl-16 flex flex-wrap">
-            {filteredRestaurants.map(restaurant=> {
-                if(restaurant.info.promoted===true){
-                    return (<RestroCardPromoted key={restaurant.info.id} props={restaurant}></RestroCardPromoted>);
-                }
-                else {
-                    return (<RestroCard key={restaurant.info.id} restaurant={restaurant.info}></RestroCard>);
-                }
-                    
-            })
+            {
+                filteredRestaurants.map(restaurant=> {
+                    if(restaurant.info.promoted===true){
+                        return (<RestroCardPromoted key={restaurant.info.id} props={restaurant}></RestroCardPromoted>);
+                    }
+                    else {
+                        return (<RestroCard key={restaurant.info.id} restaurant={restaurant.info}></RestroCard>);
+                    }   
+                })
             } 
         </div>
     </div>)
