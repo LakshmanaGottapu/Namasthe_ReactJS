@@ -1,6 +1,7 @@
 import { CDN_URL } from "../utils/constants";
 import {useState} from "react";
-
+import { useDispatch } from "react-redux";
+import {addItem, removeItem, clearCart} from "../utils/cartSlice";
 const ItemCard = function({category,showIndex,setIndex}){
     let itemCards;
     if(category["@type"].endsWith("NestedItemCategory")){
@@ -8,6 +9,11 @@ const ItemCard = function({category,showIndex,setIndex}){
     }                                                    
     else{
         itemCards = category.itemCards;
+    }
+    const dispatch = useDispatch();
+    const handleAddItem = (item)=>{
+        //Dispatch an Item
+        dispatch(addItem(item));
     }
     return (
             <div className="w-6/12 my-4">
@@ -29,7 +35,7 @@ const ItemCard = function({category,showIndex,setIndex}){
                                     </div>
                                     <img src={CDN_URL+imageId} className="h-48 w-48 rounded-lg"></img>  
                                     <div className="absolute ml-[495px] bg-white mt-2 hover:bg-red-200 hover:text-blue-900">
-                                        <button className="p-2 m-auto">Add+</button>
+                                        <button className="p-2 m-auto" onClick={()=>handleAddItem(itemCard)}>Add+</button>
                                     </div>  
                                 </div>
                                 <div className="h-1 rounded-lg bg-gray-400"></div>

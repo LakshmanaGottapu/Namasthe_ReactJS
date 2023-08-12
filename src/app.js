@@ -11,6 +11,8 @@ import {useState, useEffect} from "react";
 import {createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
 import { lazy, Suspense } from "react";
 import UserContext from "./components/UserContext.js";
+import {Provider} from "react-redux";
+import appStore from "./utils/appStore";
 const Grocery = lazy(()=>import("./components/Grocery.js"));
 const AppLayoutComp = () =>{
     const [userName,setUserName] = useState();
@@ -22,13 +24,16 @@ const AppLayoutComp = () =>{
             setUserName(data.userName);
         },2000);
     },[]);
-    return(<div className="app">
-                <UserContext.Provider value={{loggedInUser:userName, setUserName:setUserName}}>
+    return(
+        <Provider store={appStore}>
+            <UserContext.Provider value={{loggedInUser:userName, setUserName:setUserName}}>
+                <div className="app">
                     <Header></Header>
-                    <Outlet></Outlet>
-                </UserContext.Provider>
-            </div>
-       );
+                    <Outlet></Outlet>   
+                </div>
+            </UserContext.Provider>
+        </Provider>
+    );
 };
         
 const appRouter =   createBrowserRouter(
