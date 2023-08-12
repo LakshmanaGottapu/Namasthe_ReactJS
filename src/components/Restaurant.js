@@ -4,7 +4,7 @@ import React from "react";
 import {useState, useEffect} from "react";
 import {CDN_URL} from "../utils/constants";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
-import ItemCard from "./ItemCard.js";
+import ItemCard from "./MenuItemCards.js";
 const Restaurant = ()=>{
     const {resId} = useParams();
     const resInfo = useRestaurantMenu(resId);
