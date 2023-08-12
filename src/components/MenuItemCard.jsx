@@ -1,11 +1,10 @@
-import {CDN_URL} from "../utils/constants";
 import { useDispatch } from "react-redux";
-import {addItem, removeItem, clearCart} from "../utils/cartSlice";
+import {CDN_URL} from "../utils/constants";
+import { addItem } from "../utils/cartSlice";
 const MenuItemCard = ({itemCard})=>{
     const {id,name,description,imageId,price} = itemCard.card.info;
     const dispatch = useDispatch();
     const handleAddItem = (item)=>{
-        //Dispatch an Item
         dispatch(addItem(item));
     }
     return (

@@ -7,6 +7,7 @@ import ContactUs from "./components/ContactUs.jsx";
 import Error from "./components/Error.jsx";
 import Restaurant from "./components/Restaurant.js";
 import {useState, useEffect} from "react";
+import Cart from "./components/Cart.js";
 //import Grocery from "./components/Grocery.js";
 import {createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
 import { lazy, Suspense } from "react";
@@ -61,6 +62,10 @@ const appRouter =   createBrowserRouter(
                                     {
                                         path: "/grocery",
                                         element: <Suspense fallback={<h1>Loading Grocery store...</h1>}><Grocery/></Suspense>
+                                    },
+                                    {
+                                        path: "/cart",
+                                        element: <Cart/>
                                     }
                                 ],
                                 errorElement: <Error/>,

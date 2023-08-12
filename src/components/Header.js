@@ -28,7 +28,7 @@ export const Header = () => {
                     <li className="mx-4"><Link to='/'>Home</Link></li>
                     <li className="mx-4"><Link to='/about'>About</Link></li>
                     <li className="mx-4"><Link to='/contact'>ContactUs</Link></li>
-                    <li className="mx-4">Cart ({cartItems.length})</li>
+                    <li className="mx-4"><Link to='/cart'>Cart ({cartItems.length})</Link></li>
                     <button className="mx-4" onClick={changeState}>{sessionState}</button>
                     <li className="mx-4 font-bold">{loggedInUser}</li>
                 </ul>

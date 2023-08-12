@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import {addItem, removeItem, clearCart} from "../utils/cartSlice";
 import MenuItemCard from "./MenuItemCard";
-const ItemCard = function({category,showIndex,setIndex}){
+const MenuItemCards = function({category,showIndex,setIndex}){
     let itemCards;
     if(category["@type"].endsWith("NestedItemCategory"))
         itemCards = category.categories.itemCards;
@@ -23,4 +23,4 @@ const ItemCard = function({category,showIndex,setIndex}){
     )
 }
 
-export default ItemCard;
+export default MenuItemCards;
